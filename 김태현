@@ -1,0 +1,26 @@
+# Problem 1
+
+r = 5 # r = radius
+theta = 1 # theta = central angle
+
+S = (r**2)*theta*(1/2) # S is a area of a sector form
+print(S)
+
+r += 1 # r increments by 1
+S = (r**2)*theta*(1/2) # S should be revised
+print(S)
+
+
+# Problem 2
+
+a = 26
+c = a % 13 == 0
+print(c)
+
+
+# Problem 3
+
+a = 30**29
+b = 29**30
+c = a >= b
+print(c)
